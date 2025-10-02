@@ -1,0 +1,19 @@
+{
+  "name": "automationframework",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "cypress run --browser chrome",
+    "test:headed": "cypress run --browser chrome --headed",
+    "test:login": "cypress run --browser chrome --spec 'cypress/e2e/login.cy.js'",
+    "test:cart": "cypress run --browser chrome --spec 'cypress/e2e/cart.cy.js'",
+    "open": "cypress open --browser chrome",
+    "open:chrome": "cypress open --e2e --browser chrome"
+  },
+  "keywords": [],
+  "author": "German Hackembruch",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^15.3.0"
+  }
+}
